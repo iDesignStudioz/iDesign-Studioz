@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>It's Me - HTML Template</title>
+
+    <!-- Style CSS -->
+    <link href="css/collection.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet"
+        type="text/css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body data-spy="scroll" data-target=".sidebar" data-offset="200">
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-boxed sidebar-dark">
+        <ul class="nav sidenav dropable">
+            <li><a href="#getting_started" title="Getting Started">Getting Started</a></li>
+            <li><a href="#head_css_structure" title="HEAD CSS Structure">CSS Structure</a></li>
+            <li><a href="#javascript_structure" title="Javascript Structure">Javascript Structure</a></li>
+            <li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+            <li><a href="#fonts_used" title="Fonts used">Fonts Used</a></li>
+            <li><a href="#color-change-option" title="Main Color Change Option">Main Color Change</a></li>
+            <li><a href="#slider-edit" title="Owl Carousel Edit Option">Slick Edit Option</a></li>
+            <li><a href="#scroll-animation" title="How to Hide Scroll Animation">Scroll Animation</a></li>
+            <li><a href="#preloader-hide" title="How to edit/off Preloader">Preloader</a></li>
+            <li><a href="#speed-optimization" title="Speed Optimization">Speed Optimization</a></li>
+        </ul>
+    </aside>
+    <!-- END Sidebar -->
+
+    <header class="site-header navbar-transparent">
+        <!-- Banner -->
+        <div class="banner auto-size" style="background-color: #df5646">
+            <div class="container-fluid">
+                <h1 style="margin: 0; padding: 30px 0;"><strong>It's Me</strong> Documentation</h1>
+            </div>
+        </div>
+        <!-- END Banner -->
+    </header>
+
+    <main class="container-fluid">
+        <!-- Main content -->
+        <article class="main-content" role="main">
+
+
+            <section id="getting_started">
+                <div class="page-header">
+                    <h3 style="margin-top: 0; margin-bottom: 12px;">Getting Started</h3>
+                </div>
+                <p>The template folder <strong>It's Me</strong> is available inside the downloaded zip file. Need to
+                    unzip the zip file to find the template also the documentation folder.</p>
+                <p>The <strong>files and folders structure</strong> is similar to the following:</p>
+                <ol>
+                    <li><strong>assets/css</strong> — folder with CSS files.</li>
+                    <li><strong>assets/fonts</strong> — folder with fonts files.</li>
+                    <li><strong>assets/images</strong> — folder with image files.</li>
+                    <li><strong>assets/js</strong> — folder with Javascript files.</li>
+                </ol>
+                <p>Upload the template files to the server with the help of one of the FTP-clients like FileZilla.</p>
+
+
+
+
+
+                <h6 style="margin-top: 20px;"><strong>Files Edit & Upload:</strong></h6>
+                <p>Individual pages can be customized by opening in a code editor such as VS Code. Once all the
+                    customization completed then to make the website live you need to upload the updated project files
+                    to the hosting server for your own domain. The files can be uploaded using FTP client such as
+                    FileZilla.</p>
+            </section>
+
+            <section id="head_css_structure">
+                <div class="page-header">
+                    <h3 style="margin-top: 0; margin-bottom: 12px;">HEAD CSS Structure</h3>
+                </div>
+                <p>Followings are the <strong>css</strong> files which loaded inside the <strong>Head Section</strong>:
+                </p>
+                <pre class="line-numbers">
+<code class="language-markup">
+&lt;!--====== FontAwesome ======--&gt;
+&lt;link href="assets/css/fontawesome.5.9.0.min.css" rel="stylesheet"&gt;
+&lt;!--====== Bootstrap ======--&gt;
+&lt;link href="assets/css/bootstrap-4.5.3.min.css" rel="stylesheet"&gt;
+&lt;!--====== Spacing ======--&gt;
+&lt;link href="assets/css/spacing.min.css" rel="stylesheet"&gt;
+&lt;!--====== PagePiling ======--&gt;
+&lt;link href="assets/css/jquery.pagepiling.css" rel="stylesheet"&gt;
+&lt;!--====== Slick Slider ======--&gt;
+&lt;link href="assets/css/slick.min.css" rel="stylesheet"&gt;
+&lt;!--====== Animate CSS ======--&gt;
+&lt;link href="assets/css/animate.min.css" rel="stylesheet"&gt;
+&lt;!--====== Main css ======--&gt;
+&lt;link rel="stylesheet" href="assets/css/style.css"&gt;
+&lt;!--====== Responsive css ======--&gt;
+&lt;link rel="stylesheet" href="assets/css/responsive.css"&gt;
+</code>
+</pre>
+            </section>
+
+            <section id="javascript_structure">
+                <div class="page-header">
+                    <h3 style="margin-top: 0; margin-bottom: 12px;">Javascript Structure</h3>
+                </div>
+                <p>Followings are the <strong>JS</strong> files which loaded before the end of <strong>HEAD or BODY
+                        Section:</strong>.</p>
+                <pre class="line-numbers">
+<code class="language-markup">
+&lt;!--====== Jquery ======--&gt;
+&lt;script src="assets/js/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+&lt;!--====== Bootstrap ======--&gt;
+&lt;script src="assets/js/bootstrap.4.5.3.min.js"&gt;&lt;/script&gt;
+&lt;!--====== PagePiling ======--&gt;
+&lt;script src="assets/js/jquery.pagepiling.min.js"&gt;&lt;/script&gt;
+&lt;!--====== Jquery Viewport ======--&gt;
+&lt;script src="assets/js/jquery.viewport.js"&gt;&lt;/script&gt;
+&lt;!--====== SmoothScroll ======--&gt;
+&lt;script src="assets/js/smoothscroll.js"&gt;&lt;/script&gt;
+&lt;!--====== Popper ======--&gt;
+&lt;script src="assets/js/popper.min.js"&gt;&lt;/script&gt;
+&lt;!--====== Slick Slider ======--&gt;
+&lt;script src="assets/js/slick.min.js"&gt;&lt;/script&gt;
+&lt;!--====== Typed ======--&gt;
+&lt;script src="assets/js/typed.min.js"&gt;&lt;/script&gt;
+&lt;!--====== Main JS ======--&gt;
+&lt;script src="assets/js/script.js"&gt;&lt;/script&gt;
+</code>
+</pre>
+            </section>
+
+
+
+            <section id="html_structure">
+                <div class="page-header">
+                    <h3 style="margin-top: 0; margin-bottom: 12px;">HTML Structure</h3>
+                </div>
+                The <Strong>It's Me</Strong> is a responsive template and is based on the <strong>Bootstrap
+                    Framework</strong>. For more information you can check the <a target="_blank"
+                    href="https://getbootstrap.com/"><strong>Bootstrap CSS</strong></a>.
+                <p>The general template structure is the same throughout the template and each of the part is under a
+                    section with a section id name. Here is the <strong>general structure:</strong></p>
+                <pre class="line-numbers">
+<code class="language-markup">
+&lt;div class="section pp-scrollable slide slide-about a-slide-typed" data-name="about"&gt;
+    &lt;div class="slide-container"&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="number-email-cv"&gt;
+                &lt;ul class="number-email"&gt;
+                    &lt;li&gt;Call me&lt;a href="callto:(+778)675-0765"&gt;(+778) 675-0765&lt;/a&gt&lt;/li&gt;
+                    &lt;li&lt;a href="mailto:hello_niharika@gmail.com"&gt;hello_niharika@gmail.com&lt;/a&gt&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;a href="#" class="download-cv"&gt;Download CV&lt;i class="fas fa-download"&gt;&lt;/i&gt&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="row align-items-center"&gt;
+                &lt;div class="col-lg-5"&gt;
+                    &lt;div class="about-content pt-100 rpt-0 animate-element delay5 fadeInUp"&gt;
+                        &lt;span class="sub-title mb-15 animate-element delay3 fadeInUp"&gt;About Me&lt;/span&gt;
+                       &lt;h1 class="slide-title animate-element delay5 fadeInUp">Hi&lt;br&gt; I’m &lt;span class="text-typed a-typed a-typed-about" data-text="Niharika"&gt;&lt;/span&lt;/h1&gt;
+                        &lt;h3 class="animate-element delay7 fadeInUp"&gt;User Interface Designer&lt;/h3&gt;
+                        &lt;p class="animate-element delay8 fadeInUp"&gt;Hey are looking for designer to build your &lt;b&gt;Brand and gorw your business &lt;/b&gt;  let's shake hands with me&lt;/p&gt;
+                        &lt;a href="#" class="theme-btn mt-45 rmt-25 animate-element delay9 fadeInUp">hire me &lt;i class="fas fa-long-arrow-alt-right"&gt&lt;/i&gt&lt;/a&gt;
+                        &lt;div class="social-style-one mt-55 rmt-35 animate-element delay10 fadeInUp"&gt;
+                            &lt;a href="#"&gt&lt;i class="fab fa-facebook-f"&gt&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href="#"&gt&lt;i class="fab fa-twitter"&gt&lt;/i&gt&lt;/a&gt;
+                            &lt;a href="#"&gt&lt;i class="fab fa-instagram"&gt&lt;/i&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="col-lg-7"&gt;
+                    &lt;div class="about-image pt-100 rpt-50 text-lg-right"&gt;
+                        &lt;div class="about-inner-images"&gt;
+                            &lt;img class="animate-element delay7 fadeInUp" src="assets/images/about/about.png" alt="About"&gt;
+                            &lt;img class="shape-one animate-element delay10 bounceIn" src="assets/images/about/shape-one.png" alt="Shape"&gt;
+                            &lt;img class="shape-two animate-element delay11 bounceIn" src="assets/images/about/shape-two.png" alt="Shape"&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+            </section>
+
+
+            <section id="fonts_used">
+                <div class="page-header">
+                    <h3 style="margin-top: 30px; margin-bottom: 12px;">Fonts Used</h3>
+                </div>
+                <p>
+                    Font code can be found in the &quot;<strong>style.css</strong>&quot; file path: assets/css/style.css
+                </p>
+
+                <pre class="line-numbers">
+<code class="language-css">
+// Font Family
+--base-font: 'Poppins', sans-serif;
+--heading-font: 'Playfair Display', serif;
+</code>
+</pre>
+            </section>
+
+            <section id="color-change-option">
+                <div class="page-header">
+                    <h3 style="margin-top: 0; margin-bottom: 12px;">Main Color Change Option</h3>
+                </div>
+                <p>File path: assets/css/style.css</p>
+
+                <pre class="line-numbers">
+<code class="language-css">
+// colors
+--base-color: #A3A5A7;
+--heading-color: #1D2043;
+--primary-color: #DF5646;
+--light-color: #FAFAFA;
+</code>
+</pre>
+            </section>
+
+            <section id="slider-edit">
+                <div class="page-header">
+                    <h3 style="margin-top: 0; margin-bottom: 12px;">Slick Edit Option</h3>
+                </div>
+                <p>File path: assets/js/script.js</p>
+
+                <pre class="line-numbers">
+<code class="language-css">
+
+// 05. Testimonials Carousel
+if ($('.testimonials-wrap').length) {
+    $('.testimonials-wrap').slick({
+        infinite: true,
+        autoplay: false,
+        arrows: false,
+        dots: true,
+        fade: true,
+        pauseOnHover: false,
+        autoplaySpeed: 2000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    });
+}
+
+</code>
+</pre>
+                <p><strong>More Info please browser the link: <a href="https://kenwheeler.github.io/slick/"
+                            target="_blank">Slick Docs Options</a></strong></p>
+            </section>
+
+            <section id="scroll-animation">
+                <div class="page-header">
+                    <h3 style="margin-top: 0; margin-bottom: 12px;">How to Hide Scroll Animation</h3>
+                </div>
+                <p>Please remove or comment the below line from head</p>
+                <pre class="line-numbers">
+<code class="language-css">
+
+&lt;!--====== Animate CSS ======--&gt;
+&lt;link href="assets/css/animate.min.css" rel="stylesheet"&gt;
+
+</code>
+</pre>
+                </section>
+
+				<section id="preloader-hide">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">How to edit/off Preloader</h3>
+                    </div>
+                    <p>Please remove or comment the below code file path: assets/js/script.js</p>
+<pre class="line-numbers">
+<code class="language-css">
+// 06. Preloader
+if ($('.preloader').length) {
+    $('.preloader').fadeOut('slow');
+}
+</code>
+</pre>
+
+                <p>Also, please remove or comment the above code all HTML files</p>
+                <pre class="line-numbers">
+<code class="language-css">
+&lt;!-- Preloader --&gt;
+&lt;div class="preloader"&gt;&lt;/div&gt;
+</code>
+</pre>
+            </section>
+
+            <section id="speed-optimization">
+                <div class="page-header">
+                    <h3 style="margin-top: 0; margin-bottom: 12px;">Speed Optimization</h3>
+                </div>
+
+                <p>Please optimize all images KB, MB also, use the image size following by placeholder file path:
+                    assets/images/..</p>
+                <p>- <a href="https://tinypng.com/" target="_blank">Tinypng</a></p>
+
+                <p>Please minify all CSS file path: assets/css/..</p>
+                <p>- <a href="https://cssminifier.com/" target="_blank">CSS Minifier</a></p>
+
+
+                <p>Please minify all JS file path: assets/js/..</p>
+                <p>- <a href="https://javascript-minifier.com/" target="_blank">Javascript Minifier</a></p>
+            </section>
+
+            <section id="how-to-change-image">
+                <div class="page-header">
+                    <h3 style="margin-top: 0; margin-bottom: 12px;">How to Change Image?</h3>
+                </div>
+
+                <p>Please go to the image file 'path: assets/images/...' replace the image which one you want following
+                    placeholder image size & name</p>
+            </section>
+
+            <section id="how-to-change-images">
+                <div class="page-header">
+                    <h3 style="margin-top: 0; margin-bottom: 12px;">How to Add New Updates of Existing Template</h3>
+                </div>
+
+                <p>
+                    After a certain time, we will update our project based on the latest technology but in your
+                    template, you need to update on your own if you want.
+                </p>
+            </section>
+
+            <section id="credits">
+                <div class="page-header">
+                    <h3 style="margin-top: 0; margin-bottom: 12px;">Credits</h3>
+                </div>
+                <p><strong>Note:</strong> All <strong>images</strong> are used for <strong>preview</strong> purpose only
+                    and <strong>not included</strong> in the <strong>final purchase</strong> files.</p>
+                <p> <strong>Images from:</strong><br />
+                    <a target="_blank" href="https://www.freepik.com/">https://www.freepik.com/</a><br />
+                    <a target="_blank" href="https://pixabay.com/">https://pixabay.com/</a><br />
+                    <a target="_blank" href="https://unsplash.com/">https://unsplash.com/</a><br />
+                </p>
+                <p>
+                    <strong>Fonts:</strong><br />
+                    <a target="_blank" href="https://fonts.google.com/specimen/Poppins?query=popp">Poppins</a><br>
+                    <a target="_blank" href="https://fonts.google.com/specimen/Playfair+Display">Playfair</a>
+                </p>
+                <p>
+                    <strong>IconFont</strong><br>
+                    <a href="https://fontawesome.com/" target="_blank">Fontawesome</a><br>
+                </p>
+            </section>
+
+
+        </article>
+        <!-- END Main content -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+
+                </div>
+                <div class="col-md-6 col-sm-6">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END Footer -->
+
+
+    <!-- Scripts -->
+    <script src="js/other.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
