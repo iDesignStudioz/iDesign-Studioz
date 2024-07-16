@@ -41,7 +41,7 @@
 :root {
     scroll-behavior: auto;
     --base-color: #252525;
-    --heading-color: #1D2043;
+    --heading-color: #1d1d1d;
     --primary-color: #d4ad00;
     --light-color: #FAFAFA;
     --base-font: 'Poppins', sans-serif;
@@ -99,7 +99,7 @@ h6 a {
 
 ::selection {
     background-color: #fcf1e7;
-    color: #1f2044;
+    color: #1a1a1a;
     text-shadow: none
 }
 
@@ -111,7 +111,7 @@ h6 a {
 
 ::-moz-selection {
     background-color: #fcf1e7;
-    color: #1f2044;
+    color: #141414;
     text-shadow: none
 }
 
@@ -926,7 +926,7 @@ b a:not(:hover) {
 /****************************************************** */
 .service-inner-images {
     position: relative;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .service-inner-images .shape-one {
@@ -961,15 +961,15 @@ b a:not(:hover) {
 }
 
 .service-item .icon {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     flex: none;
     transition: 0.5s;
-    line-height: 80px;
-    border-radius: 10%;
+    line-height: 70px;
+    border-radius: 30%;
     text-align: center;
     margin-right: 15px;
-    background: #ffffff;
+    background: #ffffff00;
 }
 
 .service-item h4 {
@@ -1644,11 +1644,11 @@ blockquote .designation {
 /****************** 16. Dark Version ****************** */
 /****************************************************** */
 .dark-body {
-    --light-color: #32324C;
+    --light-color: #222222;
 }
 
 .dark-body .pp-scrollable:not(.slide-light) {
-    background: #3C3B5A;
+    background: #222222;
 }
 
 .dark-body h1,
@@ -1942,3 +1942,119 @@ blockquote .designation {
     opacity: 1;
   }
   
+
+
+  #icon{
+    width: 25px;
+    cursor: progress;
+  } 
+
+
+  
+/** Button styles */
+.them-btn, a.them-btn {
+    z-index: 1;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s;
+    position: relative;
+    text-align: center;
+    padding: 10px 22px;
+    border-radius: 15px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    text-transform: capitalize;
+    background: #222222;
+    box-shadow: 0 16px 16px rgba(116, 113, 113, 0.16);
+}
+
+.them-btn:before,
+a.them-btn:before {
+    content: '';
+    width: 44px;
+    z-index: -1;
+    left: 5px;
+    opacity: 0.2;
+    transition: 0.75s;
+    background: white;
+    position: absolute;
+    border-radius: 10px;
+    height: calc(100% - 10px);
+}
+
+.them-btn i,
+a.them-btn i {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 40px;
+}
+
+.them-btn:hover:before,
+a.them-btn:hover:before {
+    left: calc(100% - 49px);
+}
+
+.them-btn:hover i,
+a.them-btn:hover i {
+    margin-left: 45px;
+    margin-right: -3px;
+}
+
+
+
+
+ 
+/** Button styles */
+.them2-btn, a.them2-btn {
+    z-index: 1;
+    color: rgb(31, 31, 31);
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s;
+    position: relative;
+    text-align: center;
+    padding: 10px 22px;
+    border-radius: 15px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    text-transform: capitalize;
+    background: white;
+    box-shadow: 0 16px 16px rgba(116, 113, 113, 0.16);
+}
+
+.them2-btn:before,
+a.them2-btn:before {
+    content: '';
+    width: 44px;
+    z-index: -1;
+    left: 5px;
+    opacity: 0.2;
+    transition: 0.75s;
+    background: rgb(36, 36, 36);
+    position: absolute;
+    border-radius: 10px;
+    height: calc(100% - 10px);
+}
+
+.them2-btn i,
+a.them2-btn i {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 40px;
+}
+
+.them2-btn:hover:before,
+a.them2-btn:hover:before {
+    left: calc(100% - 49px);
+}
+
+.them2-btn:hover i,
+a.them2-btn:hover i {
+    margin-left: 45px;
+    margin-right: -3px;
+}
